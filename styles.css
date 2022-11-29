@@ -1,4 +1,97 @@
-﻿body
-{
+﻿
+#barranavegacion {
+        background-color: #04375c;   
+             
+        
+    }  
+
+#logoArgProg{
+    width: 100px;
+    margin: 10px;
+}    
+
+#redes{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+#imagenBanner{
+    width: 100%;
+    height: 400px;
+
+}
+
+#separador{
+    background-color: antiquewhite;
+    height:5px;
+}
+
+
+#acercaDeMi{
+    padding: 20px;
+    padding-left: 30px;
+    /*background-color: #0c5581;*/
+    background-color: #dab2c4;
+    text-align: center;
+}
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+    margin-left: 10px;
+}
+
+#explab{
+    /*/background-color: #0c5581 ;*/
+    background-color: #dab2c4;
+}
+
+#educacion{
+    background-color: #dab2c4;
+}
+
+.alineado{
+    display: inline;
+   
+}
+
+.btn-primary{
+    margin-left: 50px;
     
+}
+
+.card.card-body.img{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/*Estilo de la foto de perfil*/
+@media(min-width:576px){
+    #fotoDePerfil{
+        position: absolute;
+        width: 18%;
+        border-radius: 100%;
+        border-color: antiquewhite;
+        box-shadow: 3px 3px 3px whitesmoke;
+        left: 5%;
+        top: 350px;
+    }
+}
+
+@media(max-width:575px){
+    #fotoDePerfil{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        border-color: antiquewhite;
+        box-shadow: 3px 3px 3px whitesmoke;
+        left: 37%;
+        top: 400px;
+    }
 }
